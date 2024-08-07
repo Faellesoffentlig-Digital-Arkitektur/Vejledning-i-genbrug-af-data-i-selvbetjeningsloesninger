@@ -99,15 +99,11 @@ Det er vigtigt at have en række begreber klarlagt for at kunne sætte denne vej
 
 Som udgangspunkt er det vigtigt at forstå at vi grundlæggende taler om to scenarier for og formål med genbrug af data - som ikke er gensidigt udelukkende. Disse er illustreret i nedenstående tegning:
 
-
-
 ![Figur 1.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%201.jpg)
 
 Figur 1 To grundscenarier: Once only og Overdragelse
 
 Denne vejledning viser hvordan data kan genbruges og udveksles på forskellig vis i disse grundscenarier. Til dette er der en række forskellige perspektiver på data, som gør det nødvendigt at kunne tale om data på forskellig måde. Figur 2 giver indledningsvist et overblik over de vigtigste aspekter af dette.
-
-
 
 ![Figur 2.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%202.jpg)
 
@@ -121,8 +117,6 @@ Figur 3 viser de fire dele i et selvbetjeningsforløb. RASB folder beskrivelsen 
 2. **Kernen** er den del af forløbet, hvor der typisk indsamles data fra brugeren. Det er i kernen, at brugeren løser sin opgave.
 3. **Afrundingen** kvitterer for gennemførsel og fortæller brugeren om konsekvenser og et evt. videre forløb omkring den selvbetjeningsopgave, man netop har været igennem.
 4. **Overdragelsen** er en sidste del af selvbetjeningsforløbet, der – hvor det er relevant - etableres en sammenkædning af to eller flere selvbetjeningsløsninger.
-
-
 
 ![Figur 3.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%203.jpg)
 
@@ -167,8 +161,6 @@ Data findes endvidere i to grundlæggende typer[\[9\]](#Fodnote9):
 
 Sammenhængen mellem de to typer data er vist i Figur 4
 
-
-
 ![Figur 4.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%204.jpg)
 
 Figur 4: To typer af data, der er relevante for selvbetjeningsløsninger
@@ -184,8 +176,6 @@ Dette kapitel gennemgår en metode til at analysere databehovet for en selvbetje
 ### Analysér og planlæg genbrug af data i løsningen
 
 Der er mange, væsentlige overvejelser, når man som projekt går i gang med at designe eller videreudvikle en selvbetjeningsløsning. Hvordan ser business casen ud? Hvordan skal det grafiske udtryk være? Hvilken tone skal vi lægge i kommunikationen med brugeren? Hvordan styrer vi projektet sikkert i mål? Og ikke mindst: Hvilke data har vi som minimum brug for i selvbetjeningsforløbet for at kunne opfylde løsningens formål?
-
-
 
 ![Figur 5.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%205.jpg)
 
@@ -409,8 +399,6 @@ Projektet skal afklare, _hvor_ – og af _hvem_ - en evt. transformation skal fo
 
 Der er i grundsituationen to muligheder for at placere transformationen, jf. Figur 7. Man kan enten lade datadistributør/dataejer implementere transformationen og udstille en service, der tilbyder data i det ønskede format. Dette er en god løsning, hvis man forventer, at den nye service har potentiale for genbrug. Alternativt kan selvbetjeningsløsningen benytte en eksisterende service og selv stå for at transformere data. Herved er der fuld fleksibilitet, men mindre potentiale for genbrug af data i det anvendelsesorienterede format. Andre løsninger med samme behov vil skulle implementere lignende transformationer separat.
 
-
-
 ![Figur 7.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%207.jpg)
 
 Figur 7: To grundlæggende muligheder for at transformere data. Mulighed 1 indebærer, at distributøren/dataejeren transformerer og udstiller data i et anvendelsesorienteret format, der kan benyttes direkte af selvbetjeningsløsningen. Mulighed 2 indebærer, at den aftagende selvbetjeningsløsning anvender en eksisterende service og selv transformerer data til det ønskede format.
@@ -418,8 +406,6 @@ Figur 7: To grundlæggende muligheder for at transformere data. Mulighed 1 indeb
 En anden, typisk situation er, at der ligger en integrationskomponent (_middleware)_ mellem datasættet og selvbetjeningsløsningen[\[25\]](#Fodnote25). En sådan komponent kan virke som en _service bus_ og kan fx stå for transformationer. Komponenten kan også tilbyde aggregerede services, der sammenstiller data fra flere forskellige kilder og udstiller én service målrettet den anvendende selvbetjeningsløsning. Derved kan en integrationskomponent benyttes til at få en lang række systemer, med behov for de samme data i forskellige formater, til at hænge sammen.
 
 Omvendt kan en integrationskomponent også benyttes til at håndhæve et evt. krav inden for en organisation eller inden for et domæne om, at der anvendes en fælles standard for dataudvekslingsformater[\[26\]](#Fodnote26). Derved motiveres de omkringliggende løsninger til at anvende samme standard, hvilket alt andet lige er fornuftigt i forhold til fremtidigt genbrug og vedligehold. Figur 8 skitserer, hvordan en integrationskomponent kan benyttes til transformationer samt sammenstilling af data.
-
-
 
 ![Figur 8.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%208.jpg)
 
@@ -459,8 +445,6 @@ I modellen for dataanalyse, jf. ovenstående Figur 5, er trin 3 ”Identificer d
 #### Spørgetræ for datakildeidentifikation
 
 Der er mange spørgsmål, der skal overvejes, når behovet for en bestemt type data skal dækkes af en given datakilde. Figur 9 nedenfor forsøger at strukturere disse spørgsmål i et spørgetræ, der giver en vej igennem afklaringerne.
-
-
 
 ![Figur 9.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%209.jpg)
 
@@ -541,8 +525,6 @@ Tanken bag begrebet ’Overdragelse’, der blev introduceret i Referencearkitek
 
 En selvbetjeningsløsning kan altså betragtes ud fra to perspektiver: Både som en isoleret løsning, og som en del af en (eller flere) tværgående brugerrejser. Figur 10 illustrerer dette.
 
-
-
 ![Figur 10.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%2010.jpg)
 
 Figur 10: To perspektiver på et selvbetjeningsforløb: Både et isoleret forløb (rød, prikket kasse) og en potentiel del af en tværgående brugerrejse (blå, stiplet boks), hvor andre selvbetjeningsløsninger kan komme enten før eller efter. De blå, stiplede pile indikerer mulighed for Overdragelse.
@@ -557,8 +539,6 @@ Det er imidlertid vigtigt at understrege, at etablering af overdragelse mellem t
 Et eksempel på ’overdragelse’ er, at en bruger i forbindelse med livssituationen ’luk virksomhed’ kan have behov for at benytte mere end én selvbetjeningsløsning som led i den samlede brugerrejse. Brugerrejsens startsituation er virksomhedsejeres beslutning om at lukke sin virksomhed – og dens slutsituation er, at lukningen er gennemført og alle dertil hørende opgaver og aktiviteter ift. offentlige registreringer og selvbetjening er fuldført. Foruden Erhvervsstyrelsens løsning ’Luk virksomhed’ kunne det fx indbefatte håndtering af udestående med SKAT, at have læst sin digitale post og håndteret brugerrettighedsstyringen/den fortsatte adgang. Tanken bag Overdragelse er, at de enkelte selvbetjeningsforløb vil få mulighed for at sende udvalgte, relevante data i form af en overdragelseskontekst til hinanden, netop for at understøtte en højere grad af datamæssig sammenhæng i den overordnede kæde af forløb.
 
 Figur 11: Overdragelse er den del af selvbetjeningsforløb, som faciliterer en sammenkædning mellem to selvbetjeningsforløb, så dette sker forståeligt og operationelt for brugeren. Overdragelseskonteksten er den del af selvbetjeningskonteksten for det første selvbetjeningsforløb, der giver mening at genbruge i den efterfølgende selvbetjeningsløsning. Kilde: Referencearkitektur for selvbetjening. illustrerer situationen, hvor det første selvbetjeningsforløb genererer en række data, som samlet kaldes Selvbetjeningskontekst. Af disse kan en delmængde af data være relevante for det andet selvbetjeningsforløb. Denne delmængde kan overdrages som ”Overdragelseskontekst”.
-
-
 
 ![Figur 11.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%2011.jpg)
 
@@ -625,8 +605,6 @@ Eksemplet er opfundet til lejligheden[\[46\]](#Fodnote46), og det skal understre
 
 Eksemplet tager udgangspunkt i brugerrejsen ”jagttegns-aspirant under 18 år ønsker at tilmelde sig jagtprøve”. Projektet har et ønske om at bygge en selvbetjeningsløsning, der understøtter denne brugerrejse, og har indledningsvist identificeret og skitseret nogle af de nødvendige procestrin og forretningsfunktioner, der skal understøtte løsningen (som vist på Figur 12).
 
-
-
 ![Figur 12.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%2012.jpg)
 
 Figur 12: Indledende skitse til procestrin og funktionalitet i en (fiktiv) selvbetjeningsløsning, der gør det muligt for jagttegns-aspiranter under 18 år at tilmelde sig jagtprøve.
@@ -642,8 +620,6 @@ Projektet ønsker nu at anvende Vejledning i genbrug af data i selvbetjeningslø
   * Tilmelding til jagtprøve
 
 Projektet har endvidere identificeret de dataansvarlige for de enkelte datasæt og har nu følgende, berigede billede af situationen (Figur 13).
-
-
 
 ![Figur 13.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%2013.jpg)
 
@@ -663,8 +639,6 @@ Figur 13: Prøvetilmelding for jagttegn-aspirant under 18 år, nu med identifice
   * **Tilmelding til riffelprøve:** Når den praktiske jagttegnsprøve er gennemført, har aspiranten ret til at gå på hagljagt. En stor procentdel vælger at gå videre med også at tilmelde sig til en riffelprøve, der giver ret til at gå på riffeljagt. Projektet overvejer, hvordan tilmelding til riffelprøve vil kunne kobles til selvbetjeningsløsningen via Overdragelse. Projektdeltagerne kommer frem til, at designet kompliceres af, at det er uddannelsesstederne, der skal indberette resultaterne af den praktiske jagtprøve. Dermed vil en overdragelseskontekst skulle bæres ned forbi uddannelsesstederne for så efterfølgende at vende tilbage til riffelprøveansøgningsforløbet. Der eksisterer i øvrigt endnu ikke et separat riffelprøvetilmeldingsforløb. Projektet bliver enige med sin sponsor om, at selvbetjeningsforløbet for at bestille en praktisk jagtprøve kan udvides til også at omfatte bestilling af riffelprøve, og planlægger dette til en release 1.1 af projektet.
 
 Ud over at benytte Vejledning i genbrug af data i selvbetjeningsløsninger tager projektet også fat i Referencearkitektur for deling af data og dokumenter for at kvalificere sit løsningsdesign omkring de konkrete implementeringer af integration til de identificerede datakilder. Samlet har projektet nu en kvalificeret løsningsskitse (Figur 14), der identificerer de datakilder, der skal genbruges i projektet. Samtidig er løsningen beskrevet ud fra et fællesoffentligt sprog og begrebsapparat, hvilket sikrer mod misforståelser og mindsker risikoen for, at projektet overser vigtige aspekter i designfasen, der ellers kunne føre til forsinkelser eller fordyrelser senere i projektets levetid.
-
-
 
 ![Figur 14.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%2014.jpg)
 
@@ -715,8 +689,6 @@ I Figur 1 ses mønsteret for Stafet uden data. ”Stafet” dækker over, at ”
 2. SB1 sender brugeren videre til SB2 – direkte i browseren, evt. via link, efter Afrundingen
 3. SB2 henter de relevante data fra de underliggende datasæt
 
-
-
 ![Figur 15.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%2015.jpg)
 
 Figur 15: Stafet u/ data.
@@ -732,8 +704,6 @@ Aftalemæssigt er det her vigtigt at partnerne er enige om, hvor data lagres og 
 Dette mønster rummer blot et enkelt trin:
 
 * SB1 sender ”stafetten” videre til SB2, i form af overdragelseskonteksten, der rummer data, der kan benyttes i SB2. Brugeren fortsætter umiddelbart den overordnede proces i SB2 i samme browser/arbejdsgang.
-
-
 
 ![Figur 16.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%2016.jpg)
 
@@ -754,8 +724,6 @@ I Figur 3 ses et mønster, hvor der introduceres en asynkron notifikation. De in
 3. Når data er færdigprocesseret, sender FS1 en notifikation til brugeren, der indeholder overdragelseskonteksten. Notifikationen kan fx tage form af Digital Post[\[47\]](#Fodnote47), en e-mail eller en SMS.
 4. Brugeren agerer på notifikationen og tilgår SB2, fx gennem et beriget link i form af en URL med overdragelseskontekstens data angivet som parametre.
 
-
-
 ![Figur 17.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%2017.jpg)
 
 Figur 17: Notifikation med data
@@ -773,8 +741,6 @@ I lighed med forrige mønster indgår der her en notifikation, men i denne varia
 3. FS1 sender en ikke-databærende notifikation til brugeren
 4. Brugeren benytter link i notifikationen til at tilgå SB2
 5. SB2 henter de relevante data, som FS1 har gemt, via once only fra de bagvedliggende datasæt
-
-
 
 ![Figur 18.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%2018.jpg)
 
@@ -796,8 +762,6 @@ Trinene i dette mønster er:
 2. Bruger igangsætter efterfølgende SB2. Dette kan enten ske i samme arbejdsgang for brugeren, eller tidsligt afkoblet
 3. SB2 forespørger (forud for sin Forberedelsesdel) på Kontekstlageret, om der findes en overdragelseskontekst fra SB1, der hører til den aktuelle bruger. Hvis ja, hentes denne og anvendes i SB2-forløbet.
 
-
-
 ![Figur 19.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%2019.jpg)
 
 Figur 19: Kontekstlager.
@@ -814,8 +778,6 @@ De indgående trin i dette mønster, som vist i Figur 6, er:
 
 1. Brugeren anvender en brugercentrisk orkestreringsløsning til at understøtte en tværgående proces. Undervejs i dette orkestreringsforløb (der i sig selv er en selvbetjeningsløsning og indeholder en selvbetjeningskonteskt) sendes brugeren ind SB1, der er en eksisterende selvbetjeningsløsning. I denne sammenhæng dannes den relevante overdragelseskontekst OK1.
 2. Den overordnede guide-løsning har, hvor det er muligt og fordelagtigt, mulighed for at trække direkte på forretningsservices udstillet af de relevante, bagvedliggende fagsystemer. Dette kan være hensigtsmæssigt for at skabe det mest brugervenlige forløb, hvor brugeren bliver i den samme løsning (guide-løsningens brugerflade) og ikke skifter ind i en separat selvbetjeningsløsning, der kan have sit eget _look and feel._
-
-
 
 ![Figur 20.jpg](C:\Users\B339605\Documents\GitHub\Vejledning-i-genbrug-af-data-i-selvbetjeningsloesninger\assets\Figur%2020.jpg)
 
@@ -918,74 +880,3 @@ En variant af dette mønster er, at der ikke er tale om en sammenhængende guide
 \[47\] Der gælder en række retningslinjer for anvendelse af hyperlinks i Digital Post, som kan læses i Vejledning til Næste generation Digial Post. Vejledningen findes per juni 2019 som i en beta-version på digitaliser.dk. Ifølge vejledningen ”kan \[hyperlinks\] anvendes i meddelelser som adgangsveje til eksterne websteder, eksempelvis selvbetjeningsløsninger. Hyperlinks skal anvende HTTPS-forbindelse, må ikke fremstå som URLforkortere, men skal tydeligt fremstå som en direkte vej til et separat, eksternt website. Afsender skal bevare kontrollen over det website, der linkes til. Baggrunden for dette er hensyn til dels brugervenlighed, dels sikkerhed. Hvis en modtager aktiverer et link i en mail modtaget måske langt tilbage i tiden, vil modtageren risikere enten at besøge et ikke-funktionelt website, eller en ondsindet aktør vil have kunnet overtaget/registreret websitets adresse og dermed præsentere ondsindet indhold på websitet, som kunne hentes ved modtagerens besøg. Det skal herudover bemærkes, at det ikke er tilladt at inkludere personhenførbare data – eksempelvis CPR/CVR-nummer, telefonnummer eller navn – i selve URL/linket. Dette anbefales for at sikre, at personhenførbare oplysninger ikke bliver givet til tredjeparter”.
 
 \[48\] Bemærk at der jf. afsnittet ‘Om denne version’ i selve vejledningen ikke indgår dataunderstøttelse af de 11 borgerrettede guides, som det i Digitaliseringspagten er aftalt at udvikle.
-
-[Permanent URL til artiklen: https://arkitektur.digst.dk/node/1096](https://arkitektur.digst.dk/node/1096)
-
-[Tilbage til toppen](#top)
-
-Opdateret 23. september 2022
-
-DokumentinformationIndholdsfortegnelse
-
-* [Om denne version](#om-denne-version)
-* [Sammenfatning](#sammenfatning)
-* [Indledning](#indledning)
-  * [Formål: En vejledning henvendt til projektdeltagere](#forml-en-vejledning-henvendt-til-projektdeltagere)
-  * [Hvilket ansvar har et projekt ift. datagenbrug?](#hvilket-ansvar-har-et-projekt-ift-datagenbrug)
-  * [Hvorfor er det vigtigt og fordelagtigt at genbruge data?](#hvorfor-er-det-vigtigt-og-fordelagtigt-at-genbruge)
-  * [Målgrupper og forventet brug](#mlgrupper-og-forventet-brug)
-  * [Sammenhæng med Fællesoffentlig Digital Arkitektur](#sammenhng-med-fllesoffentlig-digital-arkitektur)
-  * [Vigtige begreber omkring data og selvbetjeningsløsninger](#vigtige-begreber-omkring-data-og-selvbetjeningslsn)
-  * [Baggrund og formalia for dette dokument](#baggrund-og-formalia-for-dette-dokument)
-* [Data du kan genbruge](#data-du-kan-genbruge)
-  * [Analysér og planlæg genbrug af data i løsningen](#analysr-og-planlg-genbrug-af-data-i-lsningen)
-    * [Forstå forretningsbehov](#forst-forretningsbehov)
-    * [Forstå databehov](#forst-databehov)
-    * [Identificer datakilder](#identificer-datakilder)
-    * [Juridisk grundlag for genbrug af data](#juridisk-grundlag-for-genbrug-af-data)
-    * [Behandling af persondata i regi af forvaltningsloven](#behandling-af-persondata-i-regi-af-forvaltningslov)
-    * [Indgå aftaler om anvendelse af data](#indg-aftaler-om-anvendelse-af-data)
-    * [Fastlæg teknisk datahåndtering](#fastlg-teknisk-datahndtering)
-    * [Indarbejd data i flow](#indarbejd-data-i-flow)
-  * [Identificer og afklar dine datakilder](#identificer-og-afklar-dine-datakilder)
-    * [Spørgetræ for datakildeidentifikation](#sprgetr-for-datakildeidentifikation)
-    * [Oversigt over forskellige, bredt anvendte datakilder](#oversigt-over-forskellige-bredt-anvendte-datakilde)
-  * [Anvend datasætkataloger hvis muligt](#anvend-datastkataloger-hvis-muligt)
-  * [Datasikkerhed](#datasikkerhed)
-* [Genbrug af data i tværgående selvbetjeningsforløb via ”Overdragelse”](#genbrug-af-data-i-tvrgende-selvbetjeningsforlb-via)
-  * [Overdragelse kan understøtte tværgående brugerrejser](#overdragelse-kan-understtte-tvrgende-brugerrejser)
-  * [Diskussionen om forretningsmæssig brug af Overdragelse](#diskussionen-om-forretningsmssig-brug-af-overdrage)
-    * [”Overdragelsesparathed” øger kompleksitet](#overdragelsesparathed-ger-kompleksitet)
-* [Bilag A: Eksempel på praktisk anvendelse af denne vejledning](#bilag-a-eksempel-p-praktisk-anvendelse-af-denne-ve)
-* [Bilag B: Mønstre for implementering af Overdragelse](#bilag-b-mnstre-for-implementering-af-overdragelse)
-  * [Mønster 1: Stafet u/ data](#mnster-1-stafet-u-data)
-  * [Mønster 2: Stafet m/ data](#mnster-2-stafet-m-data)
-  * [Mønster 3: Notifikation m/ data](#mnster-3-notifikation-m-data)
-  * [Mønster 4: Notifikation u/ data](#mnster-4-notifikation-u-data)
-  * [Mønster 5: Kontekstlager](#mnster-5-kontekstlager)
-  * [Mønster 6: Sammenhængende guide\[48\]](#mnster-6-sammenhngende-guide48)
-* [Fodnoter](#fodnoter)
-
-Titel Vejledning i genbrug af data i selvbetjeningsløsninger
-
-Seneste opdateringsdato
-
-16\. december 2021
-
-Arkitekturperspektiv
-
-Information
-
-Dokument beskrivelse
-
-FDA Status
-
-Optaget
-
-Produktlivscyklus
-
-Færdig
-
-Versionsnummer
-
-0.9991
