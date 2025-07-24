@@ -689,7 +689,7 @@ I Figur 1 ses mønsteret for Stafet uden data. ”Stafet” dækker over, at ”
 2. SB1 sender brugeren videre til SB2 – direkte i browseren, evt. via link, efter Afrundingen
 3. SB2 henter de relevante data fra de underliggende datasæt
 
-![Figur 15.jpg](assets/Figur%2015.jpg)
+![Figur 15.jpg](assets/Figur15.jpg)
 
 Figur 15: Stafet u/ data.
 
