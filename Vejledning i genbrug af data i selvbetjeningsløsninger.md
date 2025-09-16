@@ -90,8 +90,8 @@ Der er i dokumentet ikke skelnet imellem, om en projektdeltager kommer fra en my
 
 Denne vejledning er en del af den fællesoffentlige digitale arkitektur (FDA), som man kan læse mere om på [FDA's hjemmeside](https://arkitektur.digst.dk/). Særligt nedenstående to referencearkitekturer kan være relevant for en uddybende forståelse:
 
-* [**Referencearkitektur for selvbetjening**](/node/602) (RASB)[\[5\]](#Fodnote5) er pejlemærket for at skabe bedre selvbetjeningsløsninger i den offentlige sektor. Introducerer en række begreber og modeller for at understøtte såvel bedre, enkeltstående selvbetjeningsløsninger som bedre brugerrejser på tværs af myndigheds- og ressortgrænser.  
-* [**Referencearkitektur for deling af data og dokumenter**](/node/611) (RAD)[\[6\]](#Fodnote6) har til formål at lette brug og genbrug af data i relevante sammenhænge, herunder selvbetjeningsprocesser. Introducerer et fællesoffentligt sprog for datadeling, herunder fælles mønstre for, hvordan datadeling kan understøttes på en sammenhængende måde.
+* [**Referencearkitektur for selvbetjening**](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-selvbetjening) (RASB)[\[5\]](#Fodnote5) er pejlemærket for at skabe bedre selvbetjeningsløsninger i den offentlige sektor. Introducerer en række begreber og modeller for at understøtte såvel bedre, enkeltstående selvbetjeningsløsninger som bedre brugerrejser på tværs af myndigheds- og ressortgrænser.  
+* [**Referencearkitektur for deling af data og dokumenter**](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter) (RAD)[\[6\]](#Fodnote6) har til formål at lette brug og genbrug af data i relevante sammenhænge, herunder selvbetjeningsprocesser. Introducerer et fællesoffentligt sprog for datadeling, herunder fælles mønstre for, hvordan datadeling kan understøttes på en sammenhængende måde.
 
 ### Vigtige begreber omkring data og selvbetjeningsløsninger
 
