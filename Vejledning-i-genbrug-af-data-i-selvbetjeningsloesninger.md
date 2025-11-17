@@ -662,8 +662,7 @@ Nedenstående tabel opridser de seks mønstre. I tabellen, og i dette afsnit gen
 * OK: Overdragelseskontekst
 * Kontekstlager: Et system, der har til formål at gemme en kontekst. Er dedikeret til understøttelse af brugerrejser/overdragelse – kan evt. være en procesmotor.
 
-|     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- |Tabel 2: Oversigt og sammenligning af mulige implementeringsmønstre for Overdragelse.
+Tabel 2: Oversigt og sammenligning af mulige implementeringsmønstre for Overdragelse.
 | Mønster | Beskrivelse | Brug af OK | Brug af notifikation | Tidsmæssigt afkoblet | Robust v/ genoptagelse | Mellem parter |
 | --- | --- | --- | --- | --- | --- | --- |
 | Stafet u/ data | Fuld afslutning af SB1. SB2 henter data efter once only | Nej | Nej | Nej | Nej | Nej |
@@ -672,6 +671,7 @@ Nedenstående tabel opridser de seks mønstre. I tabellen, og i dette afsnit gen
 | Notifikation u/ data | Fagsystem sender notifikation uden OK til bruger | Nej | Ja  | Ja  | Ja  | Ja  |
 | Kontekstlager | Ved igangsættelse af SB2 tjekkes for evt. OK gemt af SB1 | Ja  | Nej | Ja  | Ja  | Ja  |
 | Sammenhængende guide | Brugercentrisk orkestrering i overordnet guide-løsning | Ja  | Nej | Nej | Ja  | Nej |
+Tabel 2: Oversigt og sammenligning af mulige implementeringsmønstre for Overdragelse.
 
 Ud over felterne ’Brug af OK’ og ’Brug af notifikation’ rummer Tabel 2 tre kolonner:
 
