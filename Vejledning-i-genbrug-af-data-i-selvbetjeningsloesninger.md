@@ -74,8 +74,7 @@ Målgruppen for denne vejledning er løsningsejerens og leverandørens deltagere
 
 Der er ikke en forventning om, at du som læser i forvejen har arbejdet med design eller videreudvikling af selvbetjeningsløsninger. Vejledningen sigter efter både at give vejledning til projektdeltagere, der er på deres første projekt af denne type, og til mere erfarne projektdeltagere.
 
-|     |     |
-| --- | --- |Tabel 1: Oversigt over udvalgte, typiske projektroller og den gavn, en projektdeltager i denne rolle forventes at kunne få af denne vejledning
+
 | Projektrolle og ansvar | Kan bruge vejledningen til |
 | --- | --- |
 | Forretningsudvikler[\[4\]](#Fodnote4)<br><br>*   Repræsenterer ”forretningen” og skal kende sin organisations behov<br>*   Skal forsimple eksisterende løsninger / designe nye, intuitive løsninger ud fra brugerens behov<br>*   Identificerer databehov, herunder aktualitet, relevans m.m.<br>*   Stiller forretningskrav og designer forretningsprocessen | *   Hjælp til at stille gode krav, bl.a. med udgangspunkt i forretningskendskab herunder kendskab til løsningens brugere<br>*   ”Højniveau-beskrivelse” af egen opgave og ansvar – i kontekst af fællesoffentlige forventninger og det forventede løsningsrum<br>*   Metodehjælp – hvordan gør man, hvilke trin, hvor finder jeg hjælp?<br>*   Afgrænse og udvælge mønstre<br>*   En guide til eksisterende datasæt og datakilder |
@@ -83,6 +82,8 @@ Der er ikke en forventning om, at du som læser i forvejen har arbejdet med desi
 | Projektleder<br><br>*   Sikre projektets overordnede fremdrift og succes<br>*   Sikre aftaler om adgang til og brug af data, inkl. SLA<br>*   Sikre koordination med egen organisations EA-funktion ift. lignende databehov i andre projekter | *   At få en metodik præsenteret, der kan danne grundlag for tilgang og plan i det konkrete projekt<br>*   At få overblik over vigtige opmærksomhedspunkter |
 | Udvikler<br><br>*   Koder løsningen inkl. integrationer<br>*   Koder fejlhåndtering (fx udløb af validitet, konsistenstjek, mangelfulde data m.m.) | *   Få god forståelse af det forretningsmæssige behov<br>*   Mindsker risiko for misforståelser, tilbageløb og forsinkelser<br>*   Input til god/nødvendig fejlhåndtering |
 | Leverandør (tilbudssituation)<br><br>*   Udarbejde tilbud<br>*   Instruere egen organisation om løsning | *   Forstå kundens begrebsverden, terminologi og arkitekturmæssige rammeværk<br>*   Entydig forståelse af, hvad kunden bestiller ift. integration<br>*   Understøtter estimering og risikovurdering |
+
+Tabel 1: Oversigt over udvalgte, typiske projektroller og den gavn, en projektdeltager i denne rolle forventes at kunne få af denne vejledning
 
 Der er i dokumentet ikke skelnet imellem, om en projektdeltager kommer fra en myndighed eller er ansat hos en leverandør. I de fleste tilfælde er denne skelnen ikke relevant. Dog kan der i projekter, der skal i udbud, være særlige behov hos en myndighedsansat, der arbejder med kravstillelse – og tilsvarende særlige behov hos en leverandør, der ønsker at afgive et kvalificeret og konkurrencedygtigt tilbud. Hvor dette er relevant, er det fremhævet specifikt.
 
@@ -466,8 +467,6 @@ Nedenfor gennemgås de enkelte trin i spørgetræet.
 
 Der eksisterer en række offentlige datadistributionsplatforme, der har til formål at gøre offentlige data tilgængelige for genbrug. Tabel 2 giver en kort oversigt over en række af de væsentligste.
 
-|     |     |     |     |
-| --- | --- | --- | --- |Tabel 2: Oversigt over en række offentlige datadistributionsløsninger. Baseret på oversigt i: ”_Dokumentation af den danske offentlige sektors datainfrastruktur”, intern DIGST-rapport, februar 2018_
 | Datadistributionsplatform | Myndighed | Beskrivelse | Link |
 | --- | --- | --- | --- |
 | Danmarks Miljøportal | Danmarks Miljøportal | Opsamler, opbevarer og udstiller natur- og miljødata | [Danmarks miljøportal](http://www.miljoeportal.dk/) |
@@ -480,6 +479,8 @@ Der eksisterer en række offentlige datadistributionsplatforme, der har til form
 | Energi Data Service | Energinet (Energi-, Forsynings- og Klimaministeriet) | Gratis og åben dataportal, hvor alle kan hente data om det danske energisystem – fx CO2-udledning og forbrugs- og produktionsdata. | [Energidataservice](https://www.energidataservice.dk/da_DK/about) |
 | Serviceplatformen og de fælleskommunale støttesystemer | KOMBIT | Giver adgang til, at kommuner og kommunale it-leverandører på en ensartet måde kan få adgang til funktionalitet og data fra offentlige fag- og kildesystemer | [Den kommunale serviceplatform](https://www.serviceplatformen.dk/) |
 | Statistikbanken | Danmarks Statistik | Indeholder og udstiller officiel statistik, der beskriver det danske samfund | [Statistikbanken](http://www.statistikbanken.dk/) |
+
+Tabel 2: Oversigt over en række offentlige datadistributionsløsninger. Baseret på oversigt i: ”_Dokumentation af den danske offentlige sektors datainfrastruktur”, intern DIGST-rapport, februar 2018_
 
 Listen er ikke udtømmende, men rummer platforme, der distribuerer en række af de datatyper, der ofte vil være brug for at inkludere i selvbetjeningsløsninger. [Listen over datadistributører](https://arkitektur.digst.dk/node/677) opdateres løbende på FDA-hjemmesiden.
 
