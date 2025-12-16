@@ -1,10 +1,8 @@
 # Vejledning i genbrug af data i selvbetjeningsløsninger
 
-## Om denne version
+## Indledning
 
-Denne version af ’Vejledning i genbrug af data i selvbetjeningsløsninger’ er publiceret som en BETA-version. Den fællesoffentlige arbejdsgruppe, der har bidraget til udarbejdelse af vejledningen, har behov for at få afprøvet vejledningen førend den kan publiceres i en førsteversion.
-
-Genbrug af data har gjort sig gældende i mange år, men myndighederne gør sig fortsat nye erfaringer med at anvende eksisterende data fra offentlige myndigheders registre (once-only), fremfor at lade brugeren indtaste de samme data igen. Genbrug af data ved at ’overdrage’ data fra en selvbetjeningsløsning til anden for at understøtte en sammenhængende tværgående brugerrejser er imidlertid et relativt nyt koncept, som blandt andet er beskrevet i _Den fællesoffentlige referencearkitektur for digital selvbetjening version 1.0, februar 2018_. Det er i lyset af denne fortsatte ’brydning af nyt land’ inden for genbrug af data, at arbejdsgruppen har valgt at publicere denne vejledning til afprøvning.
+Genbrug af data har gjort sig gældende i mange år, men myndighederne gør sig fortsat nye erfaringer med at anvende eksisterende data fra offentlige myndigheders registre (once-only), fremfor at lade brugeren indtaste de samme data igen. Genbrug af data ved at ’overdrage’ data fra en selvbetjeningsløsning til anden for at understøtte en sammenhængende tværgående brugerrejser er imidlertid et relativt nyt koncept, som blandt andet er beskrevet i _Den fællesoffentlige referencearkitektur for digital selvbetjening_. 
 
 Det er vigtigt at understrege, at indholdet i denne vejledning, er noget myndighederne KAN vælge at gøre og således ikke udtryk for formelle krav, medmindre andet er aftalt i fællesoffentligt regi eller bilateralt mellem de involverede myndigheder.
 
