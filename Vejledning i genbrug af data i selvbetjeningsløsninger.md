@@ -2,15 +2,13 @@
 
 ## Indledning
 
+
 Genbrug af data har gjort sig gældende i mange år, men myndighederne gør sig fortsat nye erfaringer med at anvende eksisterende data fra offentlige myndigheders registre (once-only), fremfor at lade brugeren indtaste de samme data igen. Genbrug af data ved at ’overdrage’ data fra en selvbetjeningsløsning til anden for at understøtte en sammenhængende tværgående brugerrejser er imidlertid et relativt nyt koncept, som blandt andet er beskrevet i _Den fællesoffentlige referencearkitektur for digital selvbetjening_. 
 
-Det er vigtigt at understrege, at indholdet i denne vejledning, er noget myndighederne KAN vælge at gøre og således ikke udtryk for formelle krav, medmindre andet er aftalt i fællesoffentligt regi eller bilateralt mellem de involverede myndigheder.
+Det er vigtigt at understrege, at indholdet i denne vejledning, er noget myndighederne kan gøre og således ikke udtryk for formelle krav, medmindre andet er aftalt i fællesoffentligt regi eller bilateralt mellem de involverede myndigheder.
 
-_Digitaliseringspagten_ (marts 2019), som sammen med _Den fællesoffentlige digitaliseringsstrategi 2016-2020_ sætter rammerne for det fællesoffentlige samarbejde om digitaliseringen af den offentlige service, indeholder en aftale om udvikling af digitale guides bestående af redaktionelt indhold, som skal sikre mere sammenhængende brugerrejser for 11 udvalgte livssituationer for borgere. Dataunderstøttelse af de borgerrettede brugerrejser er imidlertid IKKE indeholdt i aftalen mellem de fællesoffentlige parter, hvorfor genbrug af data i form af overdragelse af data mellem borgerrettede selvbetjeningsløsninger som beskrevet i nærværende vejledning IKKE er omfattet af Digitaliseringspagten.
+Interessenter kan imidlertid anvende eller hente inspiration i denne vejledning til, hvordan de i højere grad kan genbruge data i selvbetjeningsløsninger med henblik på at øge brugervenligheden og forbedre myndighedernes forretningsprocesser.
 
-Interesserede myndigheder kan imidlertid anvende eller hente inspiration i denne vejledning til, hvordan de i højere grad kan genbruge data i selvbetjeningsløsninger med henblik på at øge brugervenligheden og forbedre myndighedernes forretningsprocesser.
-
-Den fællesoffentlige arbejdsgruppe opfordrer alle interesserede myndigheder til at give en tilbagemelding på deres erfaringer med brugen af vejledningen herunder eventuelle forbedringsforslag. Forslag og kommentarer bedes sendt til projektleder i Digitaliseringsstyrelsen, Klavs Helberg Jensen, [klhej@digst.dk](mailto:klhej@digst.dk)
 
 ## Sammenfatning
 
