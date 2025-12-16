@@ -4,6 +4,7 @@
 
 
 Genbrug af data har gjort sig gældende i mange år, men myndighederne gør sig fortsat nye erfaringer med at anvende eksisterende data fra offentlige myndigheders registre (once-only), fremfor at lade brugeren indtaste de samme data igen. Genbrug af data ved at ’overdrage’ data fra en selvbetjeningsløsning til anden for at understøtte en sammenhængende tværgående brugerrejser er imidlertid et relativt nyt koncept, som blandt andet er beskrevet i _Den fællesoffentlige referencearkitektur for digital selvbetjening_. 
+Vejledningen bygger videre på Referencearkitektur for Selvbetjening, der er del af den fællesoffentlige digitale arkitektur (FDA), og udarbejdet i regi af Fællesoffentlige Digitaliseringsstrategier.
 
 Det er vigtigt at understrege, at indholdet i denne vejledning, er noget myndighederne kan gøre og således ikke udtryk for formelle krav, medmindre andet er aftalt i fællesoffentligt regi eller bilateralt mellem de involverede myndigheder.
 
@@ -22,9 +23,9 @@ Modellen rummer blandt andet; afdækning af hjemmel for genbrug af data, fastlæ
 
 Vejledningen gennemgår også princippet _overdragelse_, der sigter mod, at enkeltstående selvbetjeningsløsninger på det datamæssige plan, hvor hensigtsmæssigt og relevant, kan kobles sammen i en sammenhængende brugerrejse. Overdragelse diskuteres ud fra mulige brugsscenarier og mulige implementeringsmønstre. Vejledningen anbefaler, at der i projekter overvejes, om overdragelse af data mellem specifikke, kendte selvbetjeningsforløb kan være en fordel for brugerne, og foretager vurdering af realiserbarhed. Vejledningen anbefaler dog ikke, at selvbetjeningsløsninger generelt implementerer understøttelse af, at data kan modtages via overdragelse, da kompleksiteten i at håndtere overdragede data ofte er langt højere end kompleksiteten i at håndtere data hentet via once only. Den højere kompleksitet i håndteringen af overdragelsesdata hænger dels sammen med, at data, der indgår i en overdragelse, er afgivet med henblik på at understøtte et specifikt forretningsmæssigt behov, dels at disse data ikke nødvendigvis er valideret af den afgivne myndighed.
 
-Vejledningen bygger videre på _Fællesoffentlig referencearkitektur for Selvbetjening - Selvbetjening tilrettelagt ud fra brugeroplevelsen_, der er del af den fællesoffentlige digitale arkitektur (FDA), og udarbejdet i regi af Den Fællesoffentlige Digitaliseringsstrategi 2016-2020.
 
 ## Indledning
+
 
 Formålet med dette dokument er at hjælpe projekter, der arbejder med at skabe eller videreudvikle offentlige selvbetjeningsløsninger, med at skabe gode løsninger gennem vejledning, rådgivning og anvisninger omkring genbrug af data.
 
