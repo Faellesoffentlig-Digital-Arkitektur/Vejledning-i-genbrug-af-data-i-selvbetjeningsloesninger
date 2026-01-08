@@ -472,11 +472,11 @@ Der eksisterer en række offentlige datadistributionsplatforme, der har til form
 | Danmarks Miljøportal | Danmarks Miljøportal | Opsamler, opbevarer og udstiller natur- og miljødata | [Danmarks miljøportal](http://www.miljoeportal.dk/) |
 | Datafordeleren | Styrelsen for Dataforsyning og Effektivisering | Distribuerer fællesoffentlige grunddata via en række webservices, filbaserede udtræk og hændelsesbeskeder | [Datafordeler](https://datafordeler.dk/) |
 | Den Nationale Serviceplatform (NSP) | Sundhedsdatastyrelsen | Understøtter datadeling mellem en lang række digitale løsninger, der benyttes af borgere, patienter og medarbejdere i hele sundhedsvæsenet | [Sundhedsstyrelsen: Den nationale serviceplatform](https://sundhedsdatastyrelsen.dk/NSP) |
-| Det Fælles Datagrundlag (DFDG) | Styrelsen for Arbejdsmarked og Rekruttering | Understøtter deling af nødvendige oplysninger på beskæftigelsesområdet på tværs af relevante parter, herunder jobcentre, a-kasser, borgere og andre aktører | [Styrelsen for arbejdsmarked og rekruttering: Det fælles datagrundlag](https://star.dk/it/saadan-arbejder-vi-med-it-i-styrelsen/oversigt-over-digitale-platforme-for-eksterne-brugere/styrelsen-for-arbejdsmarked-og-rekrutterings-webservices-og-wiki/webservices-til-dfdg-det-faelles-datagrundlag/) |
+| Det Fælles Datagrundlag (DFDG) | Styrelsen for Arbejdsmarked og Rekruttering | Understøtter deling af nødvendige oplysninger på beskæftigelsesområdet på tværs af relevante parter, herunder jobcentre, a-kasser, borgere og andre aktører | [Styrelsen for arbejdsmarked og rekruttering: Det fælles datagrundlag](https://star.dk/digital-service/saadan-arbejder-vi-med-it-i-styrelsen/oversigt-over-digitale-platforme-for-eksterne-brugere/styrelsen-for-arbejdsmarked-og-rekrutterings-webservices-og-wiki/webservices-til-dfdg-det-faelles-datagrundlag) |
 | ERST Distribution | Erhvervsstyrelsen | Distribuerer CVR data og andre erhvervsdata fra Erhvervsstyrelsen, beriget med virksomhedsrelaterede data fra andre offentlige datakilder | [Virk](https://data.virk.dk/)<br><br>[Erhvervsstyrelsens System til system-adgang til CVR-data](https://datacvr.virk.dk/artikel/system-til-system-adgang-til-cvr-data) |
 | Generel UdstillingsLøsning (GUL) | SKAT | Skal efter planen tilbyde én fælles, ensartet og stabil indgang til SKATs data | (Under udvikling) |
-| Kortforsyningen | Styrelsen for Dataforsyning og Effektivisering | Distribution af kort og geodata på internettet. | [Kortforsyningen](https://kortforsyningen.dk/) |
-| Energi Data Service | Energinet (Energi-, Forsynings- og Klimaministeriet) | Gratis og åben dataportal, hvor alle kan hente data om det danske energisystem – fx CO2-udledning og forbrugs- og produktionsdata. | [Energidataservice](https://www.energidataservice.dk/da_DK/about) |
+| Kortforsyningen (Tilgås nu via Datafordeleren eller Dataforsyningen) | Styrelsen for Dataforsyning og Effektivisering | Distribution af kort og geodata på internettet. | [Læs mere her](https://www.klimadatastyrelsen.dk/om-klimadatastyrelsen/nyheder/nyhedsarkiv/2021/okt/kortforsyningen-lukker-fremover-skal-du-hente-dine-data-paa-en-ny-maade-) |
+| Energi Data Service | Energinet (Energi-, Forsynings- og Klimaministeriet) | Gratis og åben dataportal, hvor alle kan hente data om det danske energisystem – fx CO2-udledning og forbrugs- og produktionsdata. | [Energidataservice](https://www.energidataservice.dk/datasets) |
 | Serviceplatformen og de fælleskommunale støttesystemer | KOMBIT | Giver adgang til, at kommuner og kommunale it-leverandører på en ensartet måde kan få adgang til funktionalitet og data fra offentlige fag- og kildesystemer | [Den kommunale serviceplatform](https://www.serviceplatformen.dk/) |
 | Statistikbanken | Danmarks Statistik | Indeholder og udstiller officiel statistik, der beskriver det danske samfund | [Statistikbanken](http://www.statistikbanken.dk/) |
 
@@ -822,6 +822,7 @@ En variant af dette mønster er, at der ikke er tale om en sammenhængende guide
 
 \[14\] Det kan i øvrigt bemærkes, at visse eksterne datasæt kan være udstillet via en distributionskopi, og at der i den forbindelse kan være forsinkelse på, hvornår en rettelse slår igennem. Se Referencearkitektur for Deling af data og dokumenterforyderligerediskussion afbrugenafdistributionskopier/kopiregistre.
 
+<!-- Kunne ikke finde en erstatning / rettelse til dette. -->
 \[15\] Konsekvenserne ved at forhindre en bruger i at gennemføre et selvbetjeningsforløb, fordi en eller flere data ikke kan valideres er beskrevet i ’Fælles krav til digitale løsninger’ under krav nummer 4 ’Feltvalidering’. Du kan finde kravet om feltvalidering i Fælles krav til digitale løsninger, ved at følge dette link: [Krav om feltvalidering som indgår i fælles krav til gode brugeroplevelser](/node/1194#04-feltvalidering-flles-aftalt)
 
 \[16\] I henhold til databeskyttelsesforordningen defineres personoplysninger som _\[…\] enhver form for information om en identificeret eller identificerbar fysisk person (»den registrerede«); ved identificerbar fysisk person forstås en fysisk pe"rson,derdirekteellerindirektekanidentificeres,navnlig ved en identifikator som f.eks. et navn, et identifikationsnummer, lokaliseringsdata, en onlineidentifikator eller et eller flere elementer, der er særlige for denne fysiske persons fysiske, fysiologiske, genetiske, psykiske, økonomiske, kulturelle eller sociale identitet jf._ art. 4, stk. 1.
@@ -834,7 +835,7 @@ En variant af dette mønster er, at der ikke er tale om en sammenhængende guide
 
 \[20\] [Datatilsynets vejledning om samtykke](https://www.datatilsynet.dk/Media/0/C/Samtykke%20(3).pdf)
 
-\[21\] Se Datatilsynets oversigt over, hvilke oplysninger der er kategoriseret som følsomme personoplysninger: [Datatilsynet: hvad er personoplysninger](https://www.datatilsynet.dk/hvad-siger-reglerne/grundlaeggende-begreber-/hvad-er-personoplysninger)
+\[21\] Se Datatilsynets oversigt over, hvilke oplysninger der er kategoriseret som følsomme personoplysninger: [Datatilsynet: hvad er personoplysninger](https://www.datatilsynet.dk/regler-og-vejledning/grundlaeggende-begreber/hvad-er-personoplysninger)
 
 \[22\] Databeskyttelsesloven §5, stk. 3: [Databeskyttelseslovens afsnit om behandling af oplysninger](https://www.retsinformation.dk/Forms/R0710.aspx?id=201319#id1ea9ddc4-7017-485c-bb8e-feaee235afdc)
 
@@ -868,7 +869,7 @@ En variant af dette mønster er, at der ikke er tale om en sammenhængende guide
 
 \[41\] Link: [Open Data DK - Åbne data til dig](http://www.opendata.dk/)
 
-\[42\] Link: [Sundhedsdatastyrelsens - registre og services](https://sundhedsdatastyrelsen.dk/da/registre-og-services)
+\[42\] Link: [Sundhedsdatastyrelsens - data og registre](https://sundhedsdatastyrelsen.dk/data-og-registre)
 
 \[43\] Link: [Statens arkiver - DAISY](https://www.sa.dk/daisy/)
 
