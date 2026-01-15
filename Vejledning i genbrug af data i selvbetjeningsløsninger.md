@@ -24,12 +24,10 @@ Modellen rummer blandt andet; afdækning af hjemmel for genbrug af data, fastlæ
 Vejledningen gennemgår også princippet _overdragelse_, der sigter mod, at enkeltstående selvbetjeningsløsninger på det datamæssige plan, kan kobles sammen i en sammenhængende brugerrejse, hvor der er hensigtsmæssigt og relevant. Overdragelse diskuteres ud fra mulige brugsscenarier og mulige implementeringsmønstre. Vejledningen anbefaler, at der i projekter overvejes, om overdragelse af data mellem specifikke, kendte selvbetjeningsforløb kan være en fordel for brugerne og foretager vurdering af realiserbarhed. Vejledningen anbefaler dog ikke, at selvbetjeningsløsninger generelt implementerer understøttelse af, at data kan modtages via overdragelse, da kompleksiteten i at håndtere overdragede data ofte er langt højere end kompleksiteten i at håndtere data hentet via once only. Den højere kompleksitet i håndteringen af overdragelsesdata hænger dels sammen med, at data der indgår i en overdragelse er afgivet med henblik på at understøtte et specifikt forretningsmæssigt behov, dels at disse data ikke nødvendigvis er valideret af den afgivne myndighed.
 
 
-## Indledning
+## Formål og målgrupper
 
 
-Formålet med dette dokument er at hjælpe projekter, der arbejder med at skabe eller videreudvikle offentlige selvbetjeningsløsninger, med at skabe gode løsninger gennem vejledning, rådgivning og anvisninger omkring genbrug af data.
-
-### Formål: En vejledning henvendt til projektdeltagere
+### En vejledning henvendt til projektdeltagere
 
 Denne vejledning henvender sig til projekter, der arbejder med at skabe eller videreudvikle offentlige selvbetjeningsløsninger. Det overordnede formål er at hjælpe projektdeltagerne – fx forretnings- og it-arkitekter hos myndigheder og deres it-leverandører - med at skabe gode løsninger, der på effektiv vis genbruger eksisterende offentlige data, hvor det er relevant, ved at give vejledning, rådgivning og anvisninger.
 
