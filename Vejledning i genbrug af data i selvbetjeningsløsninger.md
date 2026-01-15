@@ -303,7 +303,7 @@ Ved behandling af personoplysninger er det ligeledes vigtigt at afklare, om der 
 
 Ved videregivelse af borgerens data fra den afgivende myndighed til den modtagende myndighed, skal den afgivende myndighed ligeledes sikre, at der foreligger et hjemmelsgrundlag for videregivelse (medmindre videreanvendelse af data er foreneligt med indsamlingsformålet).
 
-Hvis myndighedsudøvelse ikke umiddelbart kan anvendes som hjemmel, er behandlingen ikke nødvendigvis udelukket. Databeskyttelsesloven[\[22\]](#Fodnote22) giver offentlige myndigheder mulighed for at viderebehandle personoplysninger til andre formål, end det de oprindelige var indsamlet til uafhængigt af formålenes forenelighed. Det kræver dog, at ministeren, som er ansvarlig for den lovgivning, der regulerer indsamlingen af personoplysningerne og som ønsker de indsamlede personoplysninger genbrugt til et andet formål forhandler herom med justitsministeren.
+Hvis myndighedsudøvelse ikke umiddelbart kan anvendes som hjemmel, er behandlingen ikke nødvendigvis udelukket. Databeskyttelsesloven[\[22\]](#Fodnote22) giver offentlige myndigheder mulighed for at viderebehandle personoplysninger til andre formål, end det de oprindelige var indsamlet til uafhængigt af formålenes forenelighed. Det kræver dog en godkendelse fra ansvarlig minister. 
 
 #### Dataansvar
 
@@ -313,7 +313,7 @@ Den modtagende myndighed skal desuden være opmærksom på, at denne påtager si
 
 Både ved once-only og overdragelse af data mellem selvbetjeningsløsninger skal du være opmærksom på oplysningspligten. Ved once-only, hvor data hentes fra et register, skal myndigheden i selvbetjeningsløsningen oplyse brugeren om, hvorfra oplysningerne er hentet.
 
-Ved overdragelse af data mellem selvbetjeningsløsninger skal den afgivende myndighed være opmærksom, at myndigheden har pligt til _blandt andet_ at oplyse brugeren om formålet med behandlingen, hvem der er dataansvarlig for behandlingen og om hvorvidt personoplysningerne videregives[\[23\]](#Fodnote23). Den modtagende myndighed skal ligeledes opfylde sin oplysningspligt, som både omfatter de oplysninger, der er hentet fra den afgivende myndighed/selvbetjeningsløsning og de nye oplysninger, som brugeren eventuelt selv har suppleret med i den modtagende selvbetjeningsløsning. 
+Ved overdragelse af data mellem selvbetjeningsløsninger skal den afgivende myndighed være opmærksom på, at myndigheden har pligt til _blandt andet_ at oplyse brugeren om formålet med behandlingen, hvem der er dataansvarlig for behandlingen og om hvorvidt personoplysningerne videregives[\[23\]](#Fodnote23). Den modtagende myndighed skal ligeledes opfylde sin oplysningspligt, som både omfatter de oplysninger, der er hentet fra den afgivende myndighed/selvbetjeningsløsning og de nye oplysninger, som brugeren eventuelt selv har suppleret med i den modtagende selvbetjeningsløsning. 
 
 #### Indgå aftaler om anvendelse af data
 
