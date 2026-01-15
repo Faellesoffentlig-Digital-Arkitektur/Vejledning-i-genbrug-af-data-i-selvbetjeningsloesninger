@@ -163,11 +163,11 @@ Figur 4: To typer af data, der er relevante for selvbetjeningsløsninger
 
 ## Data du kan genbruge
 
-Dette kapitel gennemgår en metode til at analysere databehovet for en selvbetjeningsløsning med henblik på at understøtte princippet ‘Once-only’ og optimere brugeroplevelsen. De enkelte trin foldes ud og beskrives, særligt omkring identifikation af velegnede datakilder der kan genbruges. Metoden kan benyttes frit til inspiration og som referenceramme, og man kan i det enkelte projekt tilpasse den efter det konkrete behov.
+Dette kapitel gennemgår en metode til at analysere databehovet for en selvbetjeningsløsning med henblik på at understøtte princippet ‘Once-only’ og optimere brugeroplevelsen. De enkelte trin foldes ud og beskrives, særligt omkring identifikation af velegnede datakilder der kan genbruges. Metoden kan benyttes frit til inspiration og som referenceramme og det enkelte projekt kan tilpasse den efter det konkrete behov.
 
 ### Analysér og planlæg genbrug af data i løsningen
 
-Der er mange, væsentlige overvejelser, når man som projekt går i gang med at designe eller videreudvikle en selvbetjeningsløsning. Hvordan ser business casen ud? Hvordan skal det grafiske udtryk være? Hvilken tone skal vi lægge i kommunikationen med brugeren? Hvordan styrer vi projektet sikkert i mål? Og ikke mindst: Hvilke data har vi som minimum brug for i selvbetjeningsforløbet for at kunne opfylde løsningens formål?
+Der er mange, væsentlige overvejelser, når man som projekt går i gang med at designe eller videreudvikle en selvbetjeningsløsning. Hvordan ser brugerrejsen ud? Hvordan skal det grafiske udtryk være? Hvilken tone skal vi lægge i kommunikationen med brugeren? Og ikke mindst: Hvilke data har vi som minimum brug for i selvbetjeningsforløbet for at kunne opfylde løsningens formål?
 
 ![Figur 5.jpg](assets/Figur5.jpg)
 
