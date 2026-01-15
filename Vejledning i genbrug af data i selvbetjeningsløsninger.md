@@ -29,7 +29,7 @@ Vejledningen gennemgår også princippet _overdragelse_, der sigter mod, at enke
 
 ### En vejledning henvendt til projektdeltagere
 
-Denne vejledning henvender sig til projekter, der arbejder med at skabe eller videreudvikle offentlige selvbetjeningsløsninger. Det overordnede formål er at hjælpe projektdeltagerne – fx forretnings- og it-arkitekter hos myndigheder og deres it-leverandører - med at skabe gode løsninger, der på effektiv vis genbruger eksisterende offentlige data, hvor det er relevant, ved at give vejledning, rådgivning og anvisninger.
+Denne vejledning henvender sig til projekter, der arbejder med at skabe eller videreudvikle offentlige selvbetjeningsløsninger. Det overordnede formål er at rådgive projektdeltagerne – fx forretnings- og it-arkitekter hos myndigheder og deres it-leverandører - med at skabe gode løsninger, der på effektiv vis genbruger eksisterende offentlige data, hvor det er relevant.
 
 Denne vejledning skal kunne bruges som et praktisk, retningsgivende værktøj i arbejdet med design af en given selvbetjeningsløsning.
 
@@ -38,7 +38,7 @@ De to hovedtemaer for vejledningen er:
 * **Once only:** Hvordan trækker man på eksisterende datakilder for at sikre, at borgere og virksomheder såvidt muligt kun leverer information, som det offentlige ikke allerede har?
 * **Overdragelse:** Hvordan kan den enkelte selvbetjeningsløsning modtage data fra eller give data videre til andre selvbetjeningsløsninger med henblik på at sikre sammenhæng i borgerens brugerrejse?
 
-Dette kapitel beskriver kort nogle af de bagvedliggende emner som for eksempel formål, motivation, målgruppe, ophæng til den Fællesoffentlige Digitale Arkitektur (FDA) samt formalia omkring, hvordan vejledningen blev udarbejdet. Herefter – i kapitel 3 og 4 – beskrives de konkrete metoder og mønstre, der kan give et godt grundlag for genbrug af data i selvbetjeningsløsninger.
+Dette kapitel beskriver kort nogle af de bagvedliggende emner som for eksempel formål, motivation, målgruppe, ophæng til den Fællesoffentlige Digitale Arkitektur (FDA). Herefter – i kapitel 3 og 4 – beskrives de konkrete metoder og mønstre, der kan give et godt grundlag for genbrug af data i selvbetjeningsløsninger.
 
 ### Hvilket ansvar har et projekt ift. datagenbrug?
 
