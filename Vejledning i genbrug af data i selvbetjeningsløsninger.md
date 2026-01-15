@@ -56,7 +56,7 @@ Der er allerede taget fællesoffentlige skridt for at lette sådanne brugerrejse
 
 ### Hvorfor er det vigtigt og fordelagtigt at genbruge data?
 
-I den Fællesoffentlige Digitaliseringsstrategi 2016-2020[\[1\]](#Fodnote1) er det et gennemgående tema, at aftalens parter ønsker at udnytte data hensigtsmæssigt på tværs af myndighedsskel i højere grad, end det er sket hidtil. Dette ønske er foldet yderligere ud særligt i de to referencearkitekturer for hhv. selvbetjening[\[2\]](#Fodnote2) og for deling af data og dokumenter[\[3\]](#Fodnote3). Her opridses en række fordele, der kort opsummeret falder i to grupper:
+I de Fællesoffentlige Digitaliseringsstrategier er det et gennemgående tema, at aftalens parter i højere grad ønsker at udnytte data hensigtsmæssigt på tværs af myndighedsskel, end det er sket hidtil. Dette ønske er foldet yderligere ud særligt i de to referencearkitekturer for hhv. selvbetjening[\[2\]](#Fodnote2) og for deling af data og dokumenter[\[3\]](#Fodnote3). Her opridses en række fordele, der kort opsummeret falder i to grupper:
 
 * **Fordele for brugerne (borgere/virksomheder):** Øget sammenhæng i offentlige services, enklere og mere effektive selvbetjeningsløsninger ved bl.a. at undgå genindtastning af data, men derimod i højere grad at genanvende relevant og entydig data fra validerede datakilder samt anvende proces-data til at skabe et sammenhængende flow fra borgerens perspektiv.
 * **Fordele for myndighederne:** Øget mulighed for automatisering, højnet datakvalitet (undgå genindtastninger med mulighed for fejl), brug af mere aktuelle data, adressering af GDPR-hensyn (data ligger kun ét sted), mere effektiv systemudvikling, nye typer af services baseret på eksisterende data
