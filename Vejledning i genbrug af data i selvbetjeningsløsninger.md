@@ -4,7 +4,7 @@
 
 
 Genbrug af data har gjort sig gældende i mange år, men myndighederne gør sig fortsat nye erfaringer med at anvende eksisterende data fra offentlige myndigheders registre (once-only), fremfor at lade brugeren indtaste de samme data igen. Genbrug af data ved at ’overdrage’ data fra en selvbetjeningsløsning til anden for at understøtte en sammenhængende tværgående brugerrejser er imidlertid et relativt nyt koncept, som blandt andet er beskrevet i _Den fællesoffentlige referencearkitektur for digital selvbetjening_. 
-Vejledningen bygger videre på Referencearkitektur for Selvbetjening, der er del af den fællesoffentlige digitale arkitektur (FDA), og udarbejdet i regi af Fællesoffentlige Digitaliseringsstrategier.
+Vejledningen bygger videre på Referencearkitektur for Selvbetjening, der er del af den fællesoffentlige digitale arkitektur (FDA), og udarbejdet i regi af Fællesoffentlige Digitaliseringsstrategier, med input fra en arbejdsgruppe bestående af repræsentanter fra KL, Erhvervsstyrelsen, ATP, Udviklings- og forenklingsstyrelsen, samt Landbrugsstyrelsen.
 
 Det er vigtigt at understrege, at indholdet i denne vejledning, er noget myndighederne kan gøre og således ikke udtryk for formelle krav, medmindre andet er aftalt i fællesoffentligt regi eller bilateralt mellem de involverede myndigheder.
 
@@ -88,7 +88,7 @@ Denne vejledning er en del af den fællesoffentlige digitale arkitektur (FDA), s
 * [**Referencearkitektur for selvbetjening**](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-selvbetjening) (RASB)[\[5\]](#Fodnote5) er pejlemærket for at skabe bedre selvbetjeningsløsninger i den offentlige sektor. Introducerer en række begreber og modeller for at understøtte såvel bedre, enkeltstående selvbetjeningsløsninger som bedre brugerrejser på tværs af myndigheds- og ressortgrænser.  
 * [**Referencearkitektur for deling af data og dokumenter**](https://github.com/Faellesoffentlig-Digital-Arkitektur/Referencearkitektur-for-deling-af-data-og-dokumenter) (RAD)[\[6\]](#Fodnote6) har til formål at lette brug og genbrug af data i relevante sammenhænge, herunder selvbetjeningsprocesser. Introducerer et fællesoffentligt sprog for datadeling, herunder fælles mønstre for, hvordan datadeling kan understøttes på en sammenhængende måde.
 
-### Vigtige begreber omkring data og selvbetjeningsløsninger
+### Begreber omkring data og selvbetjeningsløsninger
 
 Det er vigtigt at have en række begreber klarlagt for at kunne sætte denne vejledning godt i spil. Dette afsnit fremhæver de vigtigste.
 
@@ -149,7 +149,7 @@ Til at beskrive data og datahåndtering benytter vi nedenstående begreber, hvor
 * Eksempel: Rentemestervej, nummer 8, 2400 København NV
 * **Datadistributør**: En organisation/platform, hvis centrale formål at gøre et eller flere datasæt, der evt. kan være ejet af andre myndigheder, tilgængelige til genbrug ved at give anvendere adgang til data via moderne snitflader.
 
-Data findes endvidere i to grundlæggende typer[\[9\]](#Fodnote9):
+Data opdeles normalt i to grundlæggende typer[\[9\]](#Fodnote9):
 
 * **Registreringsdata**, som er en konkret registrering af en forekomst, en observation, en sammenhæng eller lignende[\[10\]](#Fodnote10)
 * **Referencedata**, som definerer værdier, der kan anvendes til at kategorisere eller klassificere andre data. Referencedata kan fx anvendes i en selvbetjeningsløsning til at angive mulige værdier, som en bruger kan vælge i en drop down-boks.
@@ -160,9 +160,6 @@ Sammenhængen mellem de to typer data er vist i Figur 4
 
 Figur 4: To typer af data, der er relevante for selvbetjeningsløsninger
 
-### Baggrund og formalia for dette dokument
-
-Vejledningen er en del af initiativet _Bedre digital kommunikation_ i _Den fællesoffentlige digitaliseringsstrategi 2016-2020_ og er forankret i Styregruppen for digital kommunikation og er udarbejdet med input fra en arbejdsgruppe bestående af repræsentanter fra KL, Erhvervsstyrelsen, ATP, Udviklings- og forenklingsstyrelsen samt Landbrugsstyrelsen.
 
 ## Data du kan genbruge
 
