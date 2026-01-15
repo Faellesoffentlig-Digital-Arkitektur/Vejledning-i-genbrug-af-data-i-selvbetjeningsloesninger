@@ -198,7 +198,7 @@ For hver datatype, man har brug for, skal man overveje den _kvalitet_, man ønsk
 
 Er der behov for datasæt med såkaldt dobbelt historik (bitemporalitet), det vil sige, at man kan se, både hvornår data er registeret i it-systemet (registreringstidspunkt), og hvornår data er/var gældende rent forvaltningsmæssigt (gyldighedstidspunkt). I givet fald må man undersøge hvorvidt og hvordan det er muligt at tilvejebringe sådanne data? Desuden skal man tage højde for datas _følsomhed og fortrolighed_. Det omfatter fx klassifikation efter personoplysningers følsomhed, idet der gælder forskellige betingelser og procedurer for behandling af oplysningerne[\[11\]](#Fodnote11). Og tilsvarende klassifikation af grader af fortrolighed forstået som, i hvilket omfang information kan videregives i henhold til sikkerhedscirkulæret (EU/NATO)[\[12\]](#Fodnote12). Dette kan stille store krav til den endelige løsning i forhold til, hvordan data indhentes (fx med/uden eksplicit samtykke) samt til, hvordan det opbevares – både permanent, men også den midlertidige opbevaring, hvor et selvbetjeningsforløb afbrydes midlertidigt og gemmes i selvbetjeningsløsningen med henblik på senere at kunne genoptages. En anden faldgrube er, at følsomme data utilsigtet bliver logget.
 
-En central afklaring er, med hvilken _hjemmel_ man kan indhente data. Nogle data er frit tilgængelige og kan bruges til alle formål, hvorimod andre kræver særlig hjemmel. Identificering af det juridiske grundlag for anvendelse af data er beskrevet i afsnit 3.1.5.
+En central afklaring er, med hvilken _hjemmel_ man kan indhente data. Nogle data er frit tilgængelige og kan bruges til alle formål, hvorimod andre kræver særlig hjemmel. Identificering af det juridiske grundlag for anvendelse af data er beskrevet senere.
 
 En generel bemærkning er, at det normalt vil være en sund øvelse for et projekt at overveje _forenkling og minimalisme_: Hvor få datatyper og hvor lidt data, man kan nøjes med i det pågældende projekt for at opfylde det forretningsbehov, man skal adressere? En simpel løsning er lettere at implementere og vedligeholde end en kompleks løsning.
 
@@ -220,14 +220,14 @@ En anden pointe er, at man i sin dialog med datadistributører og andre dataejer
 
 Endelig bør man afklare, hvordan data, som man har tænkt sig at hente og genbruge i sin selvbetjeningsløsning, kan _rettes_ af brugeren[\[14\]](#Fodnote14), hvis der er _fejl i data_. Som eksempel kan man tage en borgers telefonnummer, som man henter fra et eksternt datasæt. Hvis borgeren har skiftet telefonnummer, skal det naturligvis kunne angives korrekt i selvbetjeningsløsningen – men det vil også være nyttigt at instruere borgeren i, hvor telefonnummeret er hentet fra, hvilken myndighed der er ansvarlig, samt hvordan det kan ændres i det eksterne datasæt[\[15\]](#Fodnote15).
 
-Overvej disse tre muligheder, hvor det kan være relevant at rette fejl i data:
+Overvej disse fire muligheder, hvor det kan være relevant at rette fejl i data:
 
 * Hvis det eksterne datasæt tilbyder et _interface_ til ændringer, kan selvbetjeningsløsningen implementere dette.
 * Alternativt kan selvbetjeningsløsningen _linke videre_ til en anden selvbetjeningsløsning, som borgeren kan bruge til at opdatere sine data.
 * Er dette ikke muligt, bør selvbetjeningsløsningen _informere_ borgeren om, hvor han/hun så kan rette henvendelse.
 * Hvis brugerens indtastning af oplysninger, som afviger fra de automatisk indlæste data, kan påvirke den efterfølgende sagsbehandling eksempelvis som følge af, at myndigheden skal berigtige oplysningerne hos den autoritative kilde, bør brugeren oplyses herom. Hvis brugeren forhindres i at fortsætte selvbetjeningsforløbet som følge af, at brugeren indtaster data, der fejler validering op mod den autoritative kilde, vil det i forvaltningsretlig sammenhæng være at opfatte som et afslag[\[16\]](#Fodnote16).
 
-#### Juridisk grundlag for genbrug af data
+## Juridisk grundlag for genbrug af data
 
 Når de mulige og relevante datakilder er identificeret, skal projektet sikre sig, at der er juridisk hjemmel til at genbruge de pågældende data. Her er det typisk projektlederen, der sørger for afklaringerne, og det er nødvendigt med bistand til projektet fra en jurist.
 
@@ -240,11 +240,11 @@ Data fordeles på to hovedgrupper:
 * personoplysninger
 * andre data end personoplysninger
 
-##### Andre data end personlysninger
+#### Andre data end personlysninger
 
 Anvendelsen af data, der ikke er personoplysninger, er ikke behæftet med de persondatajuridiske restriktioner, som persondata er. Du skal dog være opmærksom på, at registre med data om eksempelvis materielle enheder eller juridiske personer kan indeholde personoplysninger[\[17\]](#Fodnote17). Hvis du ønsker at genbruge andre data end personlysninger, kan du med fordel finde information herom i EU-forordningen om en ramme for om fri udveksling af andre data end personoplysninger i Den Europæiske Union[\[18\]](#Fodnote18). Du skal desuden være opmærksom på, at anvendelsen af visse typer af data, som ikke indeholder personoplysninger, kan være begrænset af særlove.
 
-##### Hjemmel til genbrug af personoplysninger[\[19\]](#Fodnote19)
+#### Hjemmel til genbrug af personoplysninger[\[19\]](#Fodnote19)
 
 Ønsker du at genbruge personoplysninger, skal du kortlægge hvilke personoplysninger, der skal behandles med hvilket formål i den konkrete selvbetjeningsløsning. Denne kortlægning vil medvirke til, at der kan tages stilling til hvilken behandlingshjemmel, der skal danne grundlag for genbrug af de konkrete data i jeres selvbetjeningsløsning.
 
@@ -271,7 +271,7 @@ Behandling af persondata i regi af databeskyttelsesforordningen og databeskyttel
 
 Hvis persondata derimod skal genbruges i en selvbetjeningsløsning, som ikke knytter sig til en procedure, hvor der oprettes eller ændres en sag, som skal afgøres, er behandlingen af persondata omfattet af databeskyttelsesforordningen.
 
-##### Forenelighedstest
+#### Forenelighedstest
 
 Du skal i første omgang gennemføre en såkaldt _forenelighedstest_, når jeres behandling af personoplysninger foretages til et andet formål end det indsamlede formål; dog ikke hvis den oprindelige indsamling er baseret på den registreredes samtykke, EU-retten eller national lovgivning. I så fald skal du gå direkte til næste afsnit og læse om, hvilke øvrige muligheder der findes for at sikre hjemmel til behandling af persondata.
 
@@ -287,7 +287,7 @@ I forenelighedstesten skal følgende forhold afgøres:
 
 Hvis I på baggrund af forenelighedstesten vurderer, at det nye formål med anvendelsen af de indsamlede data ikke er foreneligt med det oprindelige formål, eller den oprindelige indsamling var baseret på den registreredes samtykke eller et lovkrav, skal du afklare, hvorledes du i stedet kan sikre hjemmel til at genbruge de ønskede persondata.
 
-##### Behandlingshjemmel, hvis nyt formål er uforeneligt med det oprindelige
+#### Behandlingshjemmel, hvis nyt formål er uforeneligt med det oprindelige
 
 Under databeskyttelsesforordningen findes tre former for behandlingshjemmel:
 
@@ -305,11 +305,11 @@ Ved videregivelse af borgerens data fra den afgivende myndighed til den modtagen
 
 Hvis myndighedsudøvelse ikke umiddelbart kan anvendes som hjemmel, er behandlingen ikke nødvendigvis udelukket. Databeskyttelsesloven[\[22\]](#Fodnote22) giver offentlige myndigheder mulighed for at viderebehandle personoplysninger til andre formål, end det de oprindelige var indsamlet til uafhængigt af formålenes forenelighed. Det kræver dog, at ministeren, som er ansvarlig for den lovgivning, der regulerer indsamlingen af personoplysningerne og som ønsker de indsamlede personoplysninger genbrugt til et andet formål forhandler herom med justitsministeren.
 
-##### Dataansvar
+#### Dataansvar
 
 Den modtagende myndighed skal desuden være opmærksom på, at denne påtager sig rollen som selvstændig dataansvarlig, når den behandler de modtagende personoplysninger fra den afgivende myndighed til sit eget formål.
 
-##### Oplysningspligt
+#### Oplysningspligt
 
 Både ved once-only og overdragelse af data mellem selvbetjeningsløsninger skal du være opmærksom på oplysningspligten. Ved once-only, hvor data hentes fra et register, skal myndigheden i selvbetjeningsløsningen oplyse brugeren om, hvorfra oplysningerne er hentet.
 
