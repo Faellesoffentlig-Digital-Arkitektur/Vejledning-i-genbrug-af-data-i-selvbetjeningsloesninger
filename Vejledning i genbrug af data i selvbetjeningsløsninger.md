@@ -179,9 +179,9 @@ De enkelte trin er beskrevet nærmere i de følgende underafsnit.
 
 #### Forstå forretningsbehov
 
-Første trin er at forstå det forretningsbehov, som selvbetjeningsløsningen skal dække. Skal løsningen give en borger/organisation mulighed for at registrere noget nyt, ændre eksisterende data eller se status på en sag?
+Første trin er at forstå det forretningsbehov, som selvbetjeningsløsningen skal dække. Skal løsningen give en borger/organisation mulighed for at registrere noget nyt, ændre eksisterende data eller måske se status på en sag?
 
-I forhold til forretningsbehovet er en effektiv måde at forstå dette på at beskrive starttilstanden (hvad skal der til, for at brugeren er klar til at gå i gang med selvbetjeningsforløbet) og sluttilstanden (hvad er ændret i verden efter gennemførslen af selvbetjeningsforløbet?)
+I forhold til forretningsbehovet er en effektiv måde at forstå dette på at beskrive starttilstanden (hvad skal der til, for at brugeren er klar til at gå i gang med selvbetjeningsforløbet) og sluttilstanden (hvad er ændret i brugerens livssituation efter gennemførslen af selvbetjeningsforløbet?)
 
 Det er også vigtigt at overveje, om selvbetjeningsforløbet står alene, eller om det typisk gennemføres enten umiddelbart før eller umiddelbart efter andre selvbetjeningsforløb. Denne del kan eksempelvis afklares ved hjælp af servicedesign og/eller ved at analysere kanaldata fra eksisterende selvbetjeningsløsninger. Hvis det sidste er tilfældet, kan der være mulighed for at samle data op fra denne kontekst. Hvis det første er tilfældet kan det alternativt være relevant at overdrage data til andre selvbetjeningsforløb – se Kapitel 4 Genbrug af data i tværgående selvbetjeningsforløb via ”Overdragelse” for en nærmere diskussion af overdragelse).
 
